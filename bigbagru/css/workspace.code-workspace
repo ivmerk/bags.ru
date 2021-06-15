@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../SamplesOther/codeabbey"
+		},
+		{
+			"path": "../../../../../django-on-docker2"
+		},
+		{
+			"path": "../../../../../django-on-docker"
+		}
+	],
+	"settings": {}
+}
