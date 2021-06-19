@@ -4,7 +4,8 @@ body {
 }
 .container{
     position: relative;
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
     height: 674px;
     background: linear-gradient(107.26deg, rgba(255, 169, 3, 0.37) 2.42%, rgba(255, 169, 3, 0.179219) 99.99%, rgba(255, 169, 3, 0) 100%);
     border: 1px solid #000000;
@@ -34,16 +35,16 @@ body {
 }
 .text1{
     position: absolute;
-width: 733px;
-height: 34.03px;
-left: px;
-top: 90.44px;
+    width: 733px;
+    height: 34.03px;
+    left: px;
+    top: 90.44px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
 
 }
 .titlepart1{
@@ -86,4 +87,21 @@ top: 73px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 120px;
     max-width: 100%
+}
+@media screen and (min-width:100px) and (max-width:1000px) {
+    .container{
+    position: relative;
+    width: 100%;
+    height: 667px;
+
+    background: linear-gradient(162.46deg, rgba(10, 10, 10, 0.37) 0%, rgba(255, 169, 3, 0) 100%);
+    }
+   .group1{
+    position: absolute;
+    width: 296px;
+    height: 229px;
+    left: 46px;
+    top: 333px;
+
+   } 
 }
