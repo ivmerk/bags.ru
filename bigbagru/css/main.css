@@ -101,7 +101,7 @@ top: 73px;
     position: absolute;
     width: 296px;
     height: 285px;
-    left: 92px;
+    left: 46px;
     top: 24px;
     
     background: url('../image/debantbags.png');
@@ -121,8 +121,8 @@ top: 73px;
     position: absolute;
     width: 189px;
     height: 24px;
-    left: 46px;
-    top: 24px;
+    left: 0px;
+    top: 0px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -136,8 +136,8 @@ top: 73px;
     position: absolute;
     width: 296px;
     height: 26px;
-    left: 46px;
-    top: 48px;
+    left: 0px;
+    top: 24px;
 
     font-family: Montserrat;
     font-style: normal;
@@ -151,8 +151,8 @@ top: 73px;
         position: absolute;
         width: 283px;
         height: 87px;
-        left: 46px;
-        top: 76px;
+        left: 0px;
+        top: 55px;
         
         font-family: Montserrat;
         font-style: normal;
@@ -162,5 +162,12 @@ top: 73px;
         
         color: #000000;
         
+    }
+    .logodu {
+        position: absolute;
+        width: 151px;
+        height: 87px;
+        left: 0px; 
+        top: calc(142px - 87px/2);
     }
 }
