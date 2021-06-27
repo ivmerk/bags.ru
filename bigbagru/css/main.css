@@ -77,15 +77,15 @@ top: 73px;
 .debantbags{
     /* debantbags */
     position: absolute;
-    width: 385px;
-    height: 331px;
+    width: 296px;
+    height: 285px;
     left: 1080px;
     top: 172px;
-    background: url('../image/debantbags.png') ;
+    background: url('../image/machine.png');
     border: 1px solid #000000;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 120px;
+    border-radius: 72px;
     max-width: 100%
 }
 @media screen and (min-width:100px) and (max-width:1000px) {
@@ -104,7 +104,7 @@ top: 73px;
     left: 46px;
     top: 24px;
     
-    background: url('../image/arumak.png');
+    background: url('../image/machine.png');
     border: 1px solid #000000;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
