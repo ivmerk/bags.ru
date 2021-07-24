@@ -5,8 +5,8 @@ body {
 .container{
     position: relative;
     width: 100%;
-    max-width: 1600px;
-    height: 674px;
+    max-width: 1154px;
+    height: 439px;
     background: linear-gradient(107.26deg, rgba(255, 169, 3, 0.37) 2.42%, rgba(255, 169, 3, 0.179219) 99.99%, rgba(255, 169, 3, 0) 100%);
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -15,17 +15,32 @@ body {
 
 .group1{
     position: absolute;
-    width: 599px;
-    height: 164px;
-    left: 97px;
-    top: 138px;
+    width: 601px;
+    height: 252px;
+    left: 98px;
+    top: 78px;
+}
+
+.titlepart1{
+    position: absolute;
+    width: 591px;
+    height: 46px;
+    left: px;
+    top: px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 42px;
+
+    color: #E97517;
 }
 .text1{
     position: absolute;
-    width: 599px;
+    width: 603px;
     height: 70px;
     left: px;
-    top: 46px;
+    top: 52px;
 
     
     font-family: Montserrat;
@@ -37,24 +52,54 @@ body {
     color: #000000;
     
 }
-.titlepart1{
+.text2{
     position: absolute;
-    width: 587px;
-    height: 46px;
+    width: 603px;
+    height: 70px;
     left: px;
-    top: px;
+    top: 122px;
+
+    
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 46px;
-
-    color: #F07817;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
 }
-.box {
-    width: 100px;
-    height: 100px;
-    color: red;
+.text3{
+    position: absolute;
+    width: 603px;
+    height: 70px;
+    left: px;
+    top: 198px;
+
+    
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}
+.contact1{
+    position: absolute;
+    width: 575px;
+    height: 28px;
+    left: 98px;
+    top: 411px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
 }
 .orsanmachine{
     /* orsanmachine */
