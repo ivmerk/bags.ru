@@ -1,12 +1,16 @@
 body {
     color: black;
     font-size: 16px;
+/*    display: flex;
+    justify-content: center;*/
 }
 .container{
     position: relative;
     width: 100%;
     max-width: 1154px;
+/*    left:100px;*/
     height: 439px;
+    align-items: center;
     background: linear-gradient(107.26deg, rgba(255, 169, 3, 0.37) 2.42%, rgba(255, 169, 3, 0.179219) 99.99%, rgba(255, 169, 3, 0) 100%);
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -118,9 +122,8 @@ body {
 @media screen and (min-width:100px) and (max-width:1000px) {
     .container{
         position: relative;
-        width: 100%;
+        width: 396px;
         height: 667px;
-
         background: linear-gradient(162.46deg, rgba(255, 169, 3, 0.37) 0%, rgba(255, 169, 3, 0) 100%);
     }
    
