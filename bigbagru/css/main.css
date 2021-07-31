@@ -8,9 +8,8 @@ body {
     position: relative;
     width: 100%;
     max-width: 1154px;
-/*    left:100px;*/
+    margin: 10px auto;
     height: 439px;
-    align-items: center;
     background: linear-gradient(107.26deg, rgba(255, 169, 3, 0.37) 2.42%, rgba(255, 169, 3, 0.179219) 99.99%, rgba(255, 169, 3, 0) 100%);
     border: 1px solid #000000;
     box-sizing: border-box;
